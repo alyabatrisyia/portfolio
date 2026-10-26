@@ -2,77 +2,140 @@
 <html lang="en">
 
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nur Alya Batrisyia Azeman</title>
 
-<title>Nur Alya Batrisyia Azeman</title>
+    <style>
 
-<style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
 
-body{
-    margin:0;
-    font-family:'Segoe UI', sans-serif;
-    background:#F6F0FF;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    min-height:100vh;
-}
+        body{
+            font-family:'Segoe UI', sans-serif;
+            background:linear-gradient(
+                135deg,
+                #F6F0FF 0%,
+                #E9D5FF 50%,
+                #DDD6FE 100%
+            );
+            min-height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            padding:20px;
+        }
 
-header{
-    text-align:center;
-    padding:40px;
-}
+        .container{
+            background:rgba(255,255,255,0.65);
+            backdrop-filter:blur(12px);
+            padding:50px;
+            border-radius:30px;
+            text-align:center;
+            box-shadow:0 10px 30px rgba(0,0,0,0.1);
+            max-width:600px;
+            width:100%;
+        }
 
-h1{
-    color:#4B4453;
-    font-size:3rem;
-    margin-bottom:10px;
-}
+        h1{
+            color:#4B4453;
+            margin-bottom:10px;
+            font-size:3rem;
+        }
 
-p{
-    color:#6D5D7B;
-}
+        .title{
+            color:#6D5D7B;
+            font-size:1.1rem;
+            margin-bottom:15px;
+        }
 
-.btn{
-    display:block;
-    width:240px;
-    margin:15px auto;
-    padding:15px;
-    text-decoration:none;
-    background:#FFFFFF;
-    color:#7B5EA7;
-    border-radius:30px;
-    box-shadow:0 4px 12px rgba(0,0,0,0.08);
-    transition:all 0.3s ease;
-    font-weight:600;
-}
+        .intro{
+            color:#7A7187;
+            margin-bottom:30px;
+            line-height:1.6;
+        }
 
-.btn:hover{
-    background:#B497D6;
-    color:white;
-    transform:translateY(-3px);
-}
+        .btn{
+            display:block;
+            width:250px;
+            margin:12px auto;
+            padding:15px;
+            text-decoration:none;
+            background:white;
+            color:#7B5EA7;
+            border-radius:30px;
+            font-weight:600;
+            transition:all 0.3s ease;
+            box-shadow:0 4px 10px rgba(0,0,0,0.08);
+        }
+
+        .btn:hover{
+            background:#B497D6;
+            color:white;
+            transform:translateY(-4px);
+        }
+
+        footer{
+            margin-top:25px;
+            font-size:0.9rem;
+            color:#887B98;
+        }
+
+        @media(max-width:768px){
+
+            .container{
+                padding:30px;
+            }
+
+            h1{
+                font-size:2rem;
+            }
+
+            .btn{
+                width:100%;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Nur Alya Batrisyia Azeman</h1>
+
+        <p class="title">
+            Admin Executive
+        </p>
+
+        <p class="intro">
+            Welcome to my personal portfolio website.
+            Explore my background, professional experience,
+            education, skills and contact information.
+        </p>
+
+        <a href="about.html" class="btn">About Me</a>
+
+        <a href="experience.html" class="btn">Experience</a>
+
+        <a href="education.html" class="btn">Education</a>
+
+        <a href="skills.html" class="btn">Skills</a>
+
+        <a href="contact.html" class="btn">Contact</a>
+
+        <footer>
+            © 2026 Nur Alya Batrisyia Azeman
+        </footer>
+
+    </div>
+
 </body>
 
-<header>
-    <h1>Nur Alya Batrisyia Azeman</h1>
-    <p>Admin Executive</p>
-
-    <br>
-
-<a href="about.html" class="btn">About Me</a>
-
-<a href="experience.html" class="btn">Experience</a>
-
-<a href="education.html" class="btn">Education</a>
-
-<a href="skills.html" class="btn">Skills</a>
-
-<a href="contact.html" class="btn">Contact</a>
-
-</header>
-
-
-</body>
 </html>
